@@ -42,3 +42,15 @@
 | content     | 消息内容 text ：对应消息内容 image：对应图片地址 | string |
 | userInfo    | 用户头像 昵称 地址等信息                         | object |
 | _createTime | 消息创建时间                                     | string |
+
+
+> groups_info 圈子匹配记录表
+
+| 字段        | 说明                                             | 类型   |
+| ----------- | ------------------------------------------------ | ------ |
+| _id         | 数据库记录唯一ID                                 | string |
+| openid      | 消息发送者openid                                 | string |
+| other_tag     |                        | string |
+| space     |  | string |
+| start_time    | 匹配点击时间                        | number |
+| tag | 圈子选择类型                                     | string |
