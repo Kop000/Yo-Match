@@ -50,7 +50,7 @@
 | ----------- | ------------------------------------------------ | ------ |
 | _id         | 数据库记录唯一ID                                 | string |
 | openid      | 消息发送者openid                                 | string |
-| other_tag     |                        | string |
-| space     |  | string |
-| start_time    | 匹配点击时间                        | number |
-| tag | 圈子选择类型                                     | string |
+| other_tag   | 其他类型                                         | string |
+| space       | 用户位置                                         | string |
+| start_time  | 匹配点击时间                                      | number |
+| tag         | 圈子选择类型                                     | string |
