@@ -1,0 +1,47 @@
+{
+    "pages": [
+        "pages/home/home",
+        "pages/homepage/homepage",
+        "pages/index/index",
+        "pages/talklist/talklist",
+        "pages/about/myself/myself"
+        
+        
+    ],
+    "lazyCodeLoading": "requiredComponents",
+    "requiredBackgroundModes": [
+        "audio"
+    ],
+    "useExtendedLib": {
+        "weui": true
+    },
+    "usingComponents": {
+        "chat-box": "components/chatbox/index",
+        "mp-actionSheet": "weui-miniprogram/actionsheet/actionsheet"
+    },
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#F6F6F6",
+        "navigationBarTitleText": "Yo探",
+        "navigationBarTextStyle": "black"
+    },
+    "sitemapLocation": "sitemap.json",
+    "tabBar": {
+        "custom": true,
+        "list": [
+            {
+                "pagePath": "pages/home/home",
+                "text": "主页"
+            },
+            {
+                "pagePath": "pages/talklist/talklist",
+                "text": "列表"
+            },
+            {
+                "pagePath": "pages/about/myself/myself",
+                "text": "我的"
+            }
+        ]
+    }
+}

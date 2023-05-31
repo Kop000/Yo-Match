@@ -1,0 +1,21 @@
+<!--custom-tab-bar/index.wxml-->
+<view class="cu-bar tabbar bg-white">
+    <view class="action {{selected === 0 ? 'active' : 'default'}}" data-index="0" bindtap="switchTab">
+      <view class="cuIcon-cu-image">
+        <image src="{{selected === 0 ? '/images/tabbar/plugin_cur.png' : '/images/tabbar/plugin.png'}}"></image>
+      </view>
+      <view class="text-green">主页</view>
+    </view>
+    <view class="action {{selected === 1 ? 'active' : 'default'}}" data-index="1" bindtap="switchTab">
+      <view class="cuIcon-cu-image">
+        <image src="{{selected === 1 ? '/images/tabbar/basics_cur.png' : '/images/tabbar/basics.png'}}"></image>
+      </view>
+      <view class="text-gray">列表</view>
+    </view>
+    <view class="action {{selected === 2 ? 'active' : 'default'}}" data-index="2" bindtap="switchTab">
+      <view class="cuIcon-cu-image">
+        <image src="{{selected === 2 ? '/images/tabbar/about_cur.png' : '/images/tabbar/about.png'}}"></image>
+      </view>
+      <view class="text-gray">我的</view>
+    </view>
+  </view>

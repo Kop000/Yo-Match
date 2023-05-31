@@ -1,0 +1,13 @@
+/* custom-tab-bar/index.wxss */
+@import "../colorui/icon.wxss";
+@import "../colorui/main.wxss";
+.tabbar{
+    background:rgb(235, 231, 231);
+    color: rgb(27, 23, 23);
+}
+/* .active{
+    columns: #333;
+}
+.default{
+    color:#333;
+} */
